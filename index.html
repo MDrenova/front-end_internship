@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Fron-end test</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header></header>
@@ -13,14 +14,21 @@
         <section id="heroSection">
           <div class="container">
             <div class="row d-grid">
-              <div class="left-image">
+              <div class="left-image pos-rel">
                 <img src="img/placeholder-img-1.webp" alt="image show discount">
+                <a href="#" class="button b-white">Shop now</a>
               </div>
-              <div class="right-image image-2">
+              <div class="right-image image-2 d-none pos-rel">
+                <img src="img/placeholder-img-2.webp" alt="tattoo machine">
+                <a href="#" class="button b-white">Shop now</a>
+              </div>
+              <div class="right-image image-3 pos-rel">
                 <img src="img/placeholder-img-2.webp" alt="device for measuring voltage">
+                <a href="#" class="button b-white">Shop now</a>
               </div>
-              <div class="right-image image-3">
+              <div class="right-image image-4 pos-rel">
                 <img src="img/placeholder-img-2.webp" alt="protective masks ppe">
+                <a href="#" class="button b-blue">Shop now</a>
               </div>
             </div>
           </div>  
@@ -150,7 +158,9 @@
             perView: 2
           },
           767: {
-            perView: 1
+            perView: 2,
+            focusAt: 0,
+            perTouch: 2
           }
         }
       }).mount();

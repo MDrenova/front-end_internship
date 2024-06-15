@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Fron-end test</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
 </head>
 <body>
     <header></header>
@@ -59,65 +60,100 @@
           <div class="container">
             <h2 class="title section-title">New Products</h2>
             <div class="row d-flex">
-              <article>
-                <a href="#" class="product-link">
-                  <div class="product d-flex col">
-                    <img src="img/category-product.webp" alt="tattoo machine">
-                    <div class="product-info">
-                      <span class="price">$499.99</span>
-                      <h3 class="product-title">Rook Quill Rotary Tattoo Machine - Copper</h3>
-                    </div>
+              <div class="glide">
+                <div class="glide__track" data-glide-el="track">
+                  <div class="glide__slides">
+                    <article class="glide__slide">
+                      <a href="#" class="product-link">
+                        <div class="product d-flex col">
+                          <img src="img/category-product.webp" alt="tattoo machine">
+                          <div class="product-info">
+                            <span class="price">$499.99</span>
+                            <h3 class="product-title">Rook Quill Rotary Tattoo Machine - Copper</h3>
+                          </div>
+                        </div>
+                      </a>
+                    </article>
+                    <article class="glide__slide">
+                      <a href="#" class="product-link">
+                        <div class="product d-flex col">
+                          <img src="img/category-product.webp" alt="tattoo machine">
+                          <div class="product-info">
+                            <span class="price">$499.99</span>
+                            <h3 class="product-title">Rook Quill Rotary Tattoo Machine - Blue</h3>
+                          </div>
+                        </div>
+                      </a>
+                    </article>
+                    <article class="glide__slide">
+                      <a href="#" class="product-link">
+                        <div class="product d-flex col">
+                          <img src="img/category-product.webp" alt="tattoo machine">
+                          <div class="product-info">
+                            <span class="price">$1,199.99</span>
+                            <h3 class="product-title">Pre-Order - Inkjecta Flite X1 Wireless Tatto Machine...</h3>
+                          </div>
+                        </div>
+                      </a>
+                    </article>
+                    <article class="glide__slide">
+                      <a href="#" class="product-link">
+                        <div class="product d-flex col">
+                          <img src="img/category-product.webp" alt="tattoo machine">
+                          <div class="product-info">
+                            <span class="price">$1,199.99</span>
+                            <h3 class="product-title">Pre-Order - Inkjecta Flite X1 Wireless Tatto Machine...</h3>
+                          </div>
+                        </div>
+                      </a>
+                    </article>
+                    <article class="glide__slide">
+                      <a href="#" class="product-link">
+                        <div class="product d-flex col">
+                          <img src="img/category-product.webp" alt="tattoo machine">
+                          <div class="product-info">
+                            <span class="price">$1,199.99</span>
+                            <h3 class="product-title">Pre-Order - Inkjecta Flite X1 Wireless Tatto Machine...</h3>
+                          </div>
+                        </div>
+                      </a>
+                    </article>
                   </div>
-                </a>
-              </article>
-              <article>
-                <a href="#" class="product-link">
-                  <div class="product d-flex col">
-                    <img src="img/category-product.webp" alt="tattoo machine">
-                    <div class="product-info">
-                      <span class="price">$499.99</span>
-                      <h3 class="product-title">Rook Quill Rotary Tattoo Machine - Blue</h3>
-                    </div>
-                  </div>
-                </a>
-              </article>
-              <article>
-                <a href="#" class="product-link">
-                  <div class="product d-flex col">
-                    <img src="img/category-product.webp" alt="tattoo machine">
-                    <div class="product-info">
-                      <span class="price">$1,199.99</span>
-                      <h3 class="product-title">Pre-Order - Inkjecta Flite X1 Wireless Tatto Machine...</h3>
-                    </div>
-                  </div>
-                </a>
-              </article>
-              <article>
-                <a href="#" class="product-link">
-                  <div class="product d-flex col">
-                    <img src="img/category-product.webp" alt="tattoo machine">
-                    <div class="product-info">
-                      <span class="price">$1,199.99</span>
-                      <h3 class="product-title">Pre-Order - Inkjecta Flite X1 Wireless Tatto Machine...</h3>
-                    </div>
-                  </div>
-                </a>
-              </article>
-              <article>
-                <a href="#" class="product-link">
-                  <div class="product d-flex col">
-                    <img src="img/category-product.webp" alt="tattoo machine">
-                    <div class="product-info">
-                      <span class="price">$1,199.99</span>
-                      <h3 class="product-title">Pre-Order - Inkjecta Flite X1 Wireless Tatto Machine...</h3>
-                    </div>
-                  </div>
-                </a>
-              </article>
+                </div>
+                <div class="glide__arrows" data-glide-el="controls">
+                  <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                    <img src="img/left-arrow.svg" alt="left arrow">
+                  </button>
+                  <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                    <img src="img/right-arrow.svg" alt="right arrow">
+                  </button>
+                </div>
+                <div class="glide__bullets" data-glide-el="controls[nav]">
+                  <button class="glide__bullet" data-glide-dir="=0"></button>
+                  <button class="glide__bullet" data-glide-dir="=1"></button>
+                  <button class="glide__bullet" data-glide-dir="=2"></button>
+                </div>
+              </div>
             </div>
           </div>
         </section>
     </main>
     <footer></footer>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script>
+      new Glide('.glide', {
+        type: 'carousel',
+        perView: 5,
+        focusAt: 'center',
+        breakpoints: {
+          1024: {
+            perView: 2
+          },
+          767: {
+            perView: 1
+          }
+        }
+      }).mount();
+    </script>    
 </body>
 </html>
